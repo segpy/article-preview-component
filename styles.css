@@ -127,6 +127,7 @@ body {
 }
 
 .article-card:hover .article-banner{
+    scale: 1.3;
 }
 
 .article-content{
