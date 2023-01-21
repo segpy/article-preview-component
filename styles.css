@@ -6,13 +6,10 @@
     /* 
      - colors
     */
-    --Bright-orange: hsl(31, 77%, 52%);
-    --Dark-cyan: hsl(184, 100%, 22%);
-    --Very-dark-cyan: hsl(179, 100%, 13%);
-
-    --Transparent-white: hsla(0, 0%, 100%, 0.75);
-    --Very-light-gray: hsl(0, 0%, 95%);
-
+    --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+    --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+    --Grayish-Blue: hsl(212, 23%, 69%);
+    --Light-Grayish-Blue: hsl(210, 46%, 95%);
     /* 
      - Typography
     */
@@ -85,7 +82,7 @@ h6 {
 
 a{
     text-decoration: none;
-    color: var(--veryDarkGrayishBlue);
+    color: var(--Very-Dark-Grayish-Blue);
     color: var(--white);
 }
 
@@ -96,11 +93,11 @@ button {
 
 
 body {
-    /* height: 100%; active for desktop */
+    height: 100%;  /* active for desktop */
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--LightGrayishBlue);
+    background-color: var(--Light-Grayish-Blue);
     padding: 20px;
 }
 
@@ -145,13 +142,13 @@ body {
 
 .article-title{
     font-size: 20px;
-    color: var(--veryDarkGrayishBlue);
+    color: var(--Very-Dark-Grayish-Blue);
     margin-bottom: 12px;
 }
 
 .article-text{
     font-size: var(--fs-13);
-    color: var(--DesaturatedDarkBlue);
+    color: var(--Desaturated-Dark-Blue);
     margin-bottom: 18px;
 }
 
@@ -174,12 +171,12 @@ body {
 }
 
 .author-name{
-    color:var(--veryDarkGrayishBlue);
+    color:var(--Very-Dark-Grayish-Blue);
     font-size: var(--fs-13);
 }
 
 .publish-date{
-    color: var(--GrayishBlue);
+    color: var(--Grayish-Blue);
     font-size: var(--fs-13);
 }
 
@@ -189,17 +186,17 @@ body {
 
 .share-button{
     display: flex;
-    background-color: var(--LightGrayishBlue);
+    background-color: var(--Light-Grayish-Blue);
     padding: 6px;
     border-radius: 20px;
     font-size: 20px;
-    color: var(--DesaturatedDarkBlue);
+    color: var(--Desaturated-Dark-Blue);
     transition: all 0.25s ease;
 }
 
 .share-button:hover, .share-button.active{
-    color: var(--LightGrayishBlue);
-    background-color: var(--DesaturatedDarkBlue);
+    color: var(--Light-Grayish-Blue);
+    background-color: var(--Desaturated-Dark-Blue);
 }
 
     /* 
@@ -211,7 +208,7 @@ body {
     --translateX: -50%;
     --translateY: 0;
 
-    background-color: var(--veryDarkGrayishBlue);
+    background-color: var(--Very-Dark-Grayish-Blue);
     position: absolute;
     bottom: calc(100% + 20px);
     left:   60%;
@@ -234,7 +231,7 @@ body {
 
 .share-option::after{
     content: '';
-    background-color: var(--veryDarkGrayishBlue);
+    background-color: var(--Very-Dark-Grayish-Blue);
     width: 20px;
     height: 20px;
     position: absolute;
@@ -246,7 +243,7 @@ body {
 .share-option span{
     font-size: 11px;
     letter-spacing: 5px;
-    color: var(--GrayishBlue);
+    color: var(--Grayish-Blue);
 }
 
 .share-option a{
