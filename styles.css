@@ -6,16 +6,17 @@
     /* 
      - colors
     */
-    --veryDarkGrayishBlue:  hsl(217, 19%, 35%);
-    --DesaturatedDarkBlue:  hsl(214, 17%, 51%);
-    --GrayishBlue:          hsl(212, 23%, 69%);
-    --LightGrayishBlue:     hsl(210, 46%, 95%);
-    --white:                hsl(0, 0%, 100%);
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray: hsl(0, 0%, 95%);
 
     /* 
      - Typography
     */
-    --fs-13: 13px;
+    --fs-16: 16px;
 }
 
 /* 
@@ -32,14 +33,18 @@
     box-sizing: border-box;
 }
 
-html, body {
+html {
     height: 100%;
+}
+
+html, body {
+    /* height: 100%;  apply in body desktop size*/
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     
-    font-family: 'Manrope', sans-serif;
-    font-weight: 500;
-    font-size: 13px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
 }
 
 img,
@@ -91,6 +96,7 @@ button {
 
 
 body {
+    /* height: 100%; active for desktop */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -196,6 +202,10 @@ body {
     background-color: var(--DesaturatedDarkBlue);
 }
 
+    /* 
+        *Interactive share options
+     */
+
 .share-option{
     --scale: 0;
     --translateX: -50%;
@@ -253,9 +263,9 @@ body {
     filter: invert(1);
 } 
 
-/* 
-    -Responsive
-*/
+    /* 
+        ?RESPONSIVE
+    */
 
 
 @media screen and (max-width:768px) {
